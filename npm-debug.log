@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'exåress' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 warn package.json urlshortener@0.0.1 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'exåress', null ]
+8 verbose cache add name=undefined spec="exåress" args=["exåress",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'exåress',
+9 verbose parsed url   path: 'exåress',
+9 verbose parsed url   href: 'exåress' }
+10 silly lockFile 575f804b-ex-ress exåress
+11 verbose lock exåress /home/eija/.npm/575f804b-ex-ress.lock
+12 silly lockFile 575f804b-ex-ress exåress
+13 silly lockFile 575f804b-ex-ress exåress
+14 verbose addNamed [ 'exåress', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 12ec39e2-ex-ress exåress@
+17 verbose lock exåress@ /home/eija/.npm/12ec39e2-ex-ress.lock
+18 silly addNameRange { name: 'exåress', range: '*', hasData: false }
+19 verbose request where is /exåress
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id da63ee750011be62
+22 verbose url raw /exåress
+23 verbose url resolving [ 'https://registry.npmjs.org/', './ex%C3%A5ress' ]
+24 verbose url resolved https://registry.npmjs.org/ex%C3%A5ress
+25 verbose request where is https://registry.npmjs.org/ex%C3%A5ress
+26 info trying registry request attempt 1 at 15:37:35
+27 http GET https://registry.npmjs.org/ex%C3%A5ress
+28 http 404 https://registry.npmjs.org/ex%C3%A5ress
+29 verbose headers { date: 'Thu, 26 Mar 2015 17:54:50 GMT',
+29 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'cache-control': 'max-age=0',
+29 verbose headers   'content-length': '51',
+29 verbose headers   'accept-ranges': 'bytes',
+29 verbose headers   via: '1.1 varnish',
+29 verbose headers   age: '0',
+29 verbose headers   'x-served-by': 'cache-ams4129-AMS',
+29 verbose headers   'x-cache': 'MISS',
+29 verbose headers   'x-cache-hits': '0',
+29 verbose headers   'x-timer': 'S1427392490.207095,VS0,VE389',
+29 verbose headers   'keep-alive': 'timeout=10, max=50',
+29 verbose headers   connection: 'Keep-Alive' }
+30 silly registry.get cb [ 404,
+30 silly registry.get   { date: 'Thu, 26 Mar 2015 17:54:50 GMT',
+30 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '51',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     'x-served-by': 'cache-ams4129-AMS',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1427392490.207095,VS0,VE389',
+30 silly registry.get     'keep-alive': 'timeout=10, max=50',
+30 silly registry.get     connection: 'Keep-Alive' } ]
+31 silly lockFile 12ec39e2-ex-ress exåress@
+32 silly lockFile 12ec39e2-ex-ress exåress@
+33 error 404 404 Not Found: ex%C3%A5ress
+33 error 404
+33 error 404 'ex%C3%A5ress' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404 It was specified as a dependency of 'urlshortener'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Linux 3.13.0-46-generic
+35 error command "/usr/bin/node" "/usr/bin/npm" "install" "exåress"
+36 error cwd /home/eija/url_shortener/Urlshort
+37 error node -v v0.10.33
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]
